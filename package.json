@@ -2,7 +2,7 @@
   "name": "bizlinked-web",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
+    "ng": "node node_modules/.bin/ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
@@ -12,7 +12,6 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/cli": "^9.0.6",
     "@angular/animations": "~9.0.6",
     "@angular/cdk": "^9.1.2",
     "@angular/common": "~9.0.6",
