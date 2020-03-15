@@ -1,0 +1,2 @@
+Executed below command to stop pruning dev dependencies
+heroku config:set NPM_CONFIG_PRODUCTION=false

@@ -2,13 +2,13 @@
   "name": "bizlinked-web",
   "version": "0.0.0",
   "scripts": {
-    "ng": "node node_modules/.bin/ng",
-    "start": "node node_modules/.bin/ng serve",
+    "ng": "ng",
+    "start": "ng serve",
     "build": "ng build --aot",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "heroku-postbuild": "npm build --prod"
+    "heroku-postbuild": "build --prod"
   },
   "private": true,
   "dependencies": {
