@@ -2,7 +2,8 @@
   "name": "bizlinked-web",
   "version": "0.0.0",
   "scripts": {
-    "ng": "node node_modules/.bin/ng", 
+    "ng": "node node_modules/.bin/ng",
+    "start": "ng serve",
     "build": "ng build --aot",
     "test": "ng test",
     "lint": "ng lint",
